@@ -4,7 +4,7 @@ pipeline {
   parameters {
     string(name: 'BRANCH_NAME', defaultValue: 'master', description: 'Git branch to deploy')
     string(name: 'ENV', defaultValue: 'dev', description: 'Target Environment')
-    string(name: 'DEPLOY_VERSION', defaultValue: 'v1.0.0.1', description: 'Version tag or label')
+    string(name: 'DEPLOY_VERSION', defaultValue: 'v1.0.0.2', description: 'Version tag or label')
   }
 
   environment {
